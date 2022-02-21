@@ -1,0 +1,63 @@
+.test {
+    color:rgb(55, 2, 104);
+    font-weight: bold;
+    font-size: 30px;
+    font-family: fantasy;
+    transition: color 1s;
+}
+.noir {
+    color: black;
+}
+
+.bouton {
+    background-color: rgb(164, 8, 255);
+    /*color: white;*/
+    font-family: fantasy;
+}
+
+.skin {
+    font-family: fantasy;
+}
+
+.titre {
+    font-family: fantasy;
+    font-style: oblique;
+}
+
+.formulaire {
+    font-family: fantasy;
+    color: white;
+}
+
+#divWrapper {
+    border-width: 3px;
+    border-style: double;
+    border-color:rgb(55, 2, 104);
+    width: fit-content;
+    padding: 1em;
+    margin: 0.5em;
+}
+
+.pourCss {
+    padding: 0.5em;
+    margin: 0.5em;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: rgb(17, 145, 242);
+    font-family: fantasy;
+}
+
+.formulaireRadio {
+    font-family: fantasy;
+}
+
+.toggle {
+    font-family: fantasy;
+    color:brown;
+    background-color:cyan;
+}
+
+.toggle > * {
+    background-color: inherit;
+    color: inherit;
+    font-family: inherit;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" class="doc">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body onload="main()">
+    <p class="test">Je vais créer un bouton et un input:</p>
+    <input class="skin" type="text" name="" id="mail" placeholder="Entrez votre e-mail">
+    <button class="bouton" id="bouton_v">Valider</button>
+    <p class="test">Je vais créer un compte :</p>
+    <p class="titre">Séléctionez votre pays</p>
+    <form class="formulaireRadio" onsubmit="submit(event)">
+        <input type="radio" name="pays" value="france">
+        <label for="france">France</label><br>
+
+        <input type="radio" name="pays" value="espagne">
+        <label for="espagne">Espagne</label><br>
+
+        <input type="radio" name="pays" value="belgique">
+        <label for="belgique">Belgique</label><br>
+
+        <input type="radio" name="pays">
+        <label for="autre">Autre</label><br><br>
+
+        <button class="bouton" id="boutonRadio" type="submit">Soumettre</button>
+    </form>
+    <button class="bouton" id="boutonAddDiv" type="button">Clique moi dessus</button>
+    <div class="wrapper" id="divWrapper">
+    </div>
+    <template id="abc">
+        <div id="aremp">
+            <div class="pourCss">Je viens de créer une div</div>
+            <button type="button" class="pourCss" onclick="sup(this)">Clique FDP</button>
+            <button type="button" class="pourCss" onclick ="toggle(this)">Essaye moi batard</button>
+        </div>
+    </template>
+</body>
+</html>
